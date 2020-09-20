@@ -3,9 +3,8 @@ html {
 }
 
 body {
-    background: url('/media/pexels-noah-erickson-404280 copy.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 104px);
     color: #555;
     font-family: 'Ranchers';
 }
@@ -50,6 +49,13 @@ body {
 
 .bg-black {
     background: #555 !important;
+}
+
+.carousel,.item,.active{
+   height:100%;
+ }
+.carousel-inner{
+    height:100%;
 }
 
 /* -------------------------------- Media Queries */
