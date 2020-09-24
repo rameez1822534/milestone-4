@@ -6,10 +6,10 @@
                 Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}" class="dropdown-item">Computers</a>
-                <a href="" class="dropdown-item ">Mobile Phones</a>
-                <a href="" class="dropdown-item ">Smart Wearables</a>
-                <a href="" class="dropdown-item">Game Consoles</a>
+                <a href="{% url 'products' %}?category=computers" class="dropdown-item">Computers</a>
+                <a href="{% url 'products' %}?category=mobile_phones" class="dropdown-item ">Mobile Phones</a>
+                <a href="{% url 'products' %}?category=smart_wearables" class="dropdown-item ">Smart Wearables</a>
+                <a href="{% url 'products' %}?category=game_consoles" class="dropdown-item">Game Consoles</a>
             </div>
         </li>
 
