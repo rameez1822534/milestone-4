@@ -3,11 +3,12 @@ html {
 }
 
 body {
-    background-image:url('media/home_slider_1.jpg')no-repeat center center fixed;
+    background: url('/media/home_slider_1.jpg')no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 104px);
     color: #555;
     font-family: 'Ranchers';
+    line-height: 2;
 }
 
 
@@ -120,6 +121,7 @@ body {
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
+    
     }
 
     body {
