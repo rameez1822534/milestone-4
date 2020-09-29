@@ -5,7 +5,11 @@ from django.conf import settings
 
 from .models import Order, OrderLineItem
 from products.models import Product
+<<<<<<< HEAD
 
+=======
+from profiles.models import UserProfile
+>>>>>>> d16bee38ca4036fddf23cd5521bd4dfd0ad610f9
 
 import json
 import time
@@ -153,5 +157,9 @@ class StripeWH_Handler:
         Handle the payment_intent.payment_failed webhook from Stripe
         """
         return HttpResponse(
+<<<<<<< HEAD
             content=f'Payment Failed Webhook received: {event["type"]}',
+=======
+            content=f'Webhook received: {event["type"]}',
+>>>>>>> d16bee38ca4036fddf23cd5521bd4dfd0ad610f9
             status=200)
