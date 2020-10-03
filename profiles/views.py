@@ -4,6 +4,8 @@ from django.contrib import messages
 from .models import UserProfile
 from .forms import UserProfileForm
 
+from checkout.models import Order
+
 
 def profile(request):
     """ Display the user's profile. """
@@ -42,4 +44,4 @@ def order_history(request, order_number):
         'from_profile': True,
     }
 
-    return render(request, template, context)    
+    return render(request, template, context)
