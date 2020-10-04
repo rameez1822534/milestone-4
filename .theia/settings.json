@@ -17,5 +17,5 @@
       "**/.theia": true,
    },
 "emmet.extensionsPath": ".theia",
-"python.pythonPath": "/home/gitpod/.pyenv/shims/python"
+"python.pythonPath": "mypython/bin/python"
 }
