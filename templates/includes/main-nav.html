@@ -18,10 +18,10 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item"></a>
+                <a href="{% url 'products' %}?category=mobile_phone_accessories" class="dropdown-item">Mobile Phone Accessories</a>
+                <a href="{% url 'products' %}?category=gaming_accessories" class="dropdown-item">Gaming Accessories</a>
+                <a href="{% url 'products' %}?category=computing_accessories" class="dropdown-item">Computing Accessories</a>
+                <a href="{% url 'products' %}?category=pc_moniters" class="dropdown-item">Pc Moniters</a>
             </div>
         </li>
 
@@ -30,22 +30,16 @@
                Smart tech
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Smart watches</a>
-                <a href="" class="dropdown-item">Drones</a>
-                <a href="" class="dropdown-item">Smart home</a>
+                <a href="{% url 'products' %}?category=smart_toy_gadgets" class="dropdown-item">Smart toy & gadgets</a>
+                <a href="{% url 'products' %}?category=drones_1" class="dropdown-item">Drones</a>
+                <a href="{% url 'products' %}?category=smart_home" class="dropdown-item">Smart home</a>
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}" id="specials-link" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item"></a>
-                <a href="" class="dropdown-item"></a>
-            </div>
         </li>
     </ul>
 </div>
