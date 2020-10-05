@@ -57,7 +57,7 @@ The design of the page is simple and easy to move around, it is intuitive as wel
     
 - #### Website Pictures
 
-The hero image on the home page has been taken from sublum template by colorlib and the product images has been taken from currys.co.uk website
+    - The hero image on the home page has been taken from sublum template by colorlib and the product images has been taken from currys.co.uk website
     
 
 ## Features
@@ -69,7 +69,7 @@ Home page includes a nice and elegant backgroung image of Apple magic mouse with
 to check all the products available.
 
 ### Products page
-Contains all the available products with different product categories
+Contains all the available products with different product categories.
 Product can be sort by: Category, Price, Rating and Name.
 
 ### Product Detail page
