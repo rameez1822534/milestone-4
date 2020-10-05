@@ -13,7 +13,6 @@ Users can make fully secure payment using stripe which is fully funtional and us
 
 2. [**Features**](#features)
  - [**Existing Features**](#existing-features)
- - [**Features to implement**](#features-to-implement)
 
 3. [**Technologies Used**](technologies-used)
 
