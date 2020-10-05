@@ -1,39 +1,35 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# **tech4u**
 
-Welcome rameez1822534,
+[tech4u](https://tech-4-u.herokuapp.com/)  This website is an tech E-Commerce website where users can buy different kind of smart devices and accessories.
+Users can shop by making their own profile as well can shop anonymously without having to make a profile.  
+Users can buy thing instansly with adding and buy them direct from the shopping cart and user recieve a confirmation e-mail as soon as user make a purchase.
+Users can make fully secure payment using stripe which fully funtional and user recieve a confirmation e-mail with all the details including ordernumber. 
+ 
+## Contents Table
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+1. [**UX**](#ux)
+    - [**Project Purpose**](#project-purpose)
+    - [**Design**](#design)
+    - [**Wireframes**](#wireframes)
 
-## Gitpod Reminders
+2. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Features to implement**](#features-to-implement)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+3. [**Technologies Used**](technologies-used)
 
-`python3 -m http.server`
+4. [**Testing**](#testing)
 
-A blue button should appear to click: *Make Public*,
+5. [**Deployments**](#deployments)
 
-Another blue button should appear to click: *Open Browser*.
+6.  [**Credits**](#credits)
+    - [**Contents**](#contents)
+    - [**Images**](#images)
+    - [**Help with code**](#help-with-code)
+    - [**Acknowledgements**](#acknowledgements)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Purpose
+The purpose of the project is to build a django based full-stack site which is fully funtional and based around business logic with centrally controlled  database.
 
-A blue button should appear to click: *Make Public*,
+The site allows users to search the whole product range by keywords and categories as well, 
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-/.
-Happy coding!
