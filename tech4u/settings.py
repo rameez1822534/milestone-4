@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-import os 
+import os
 from pathlib import Path
 import dj_database_url
 
@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['tech-4-u.herokuapp.com' , 'localhost']
+ALLOWED_HOSTS = ['tech-4-u.herokuapp.com', 'localhost']
 
 
 # Application definition
