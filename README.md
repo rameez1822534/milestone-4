@@ -10,7 +10,6 @@ Users can make fully secure payment using stripe which is fully funtional and us
 1. [**UX**](#ux)
  - [**Project Purpose**](#project-purpose)
  - [**Design**](#design)
- - [**Wireframes**](#wireframes)
 
 2. [**Features**](#features)
  - [**Existing Features**](#existing-features)
@@ -23,11 +22,13 @@ Users can make fully secure payment using stripe which is fully funtional and us
 5. [**Deployments**](#deployments)
 
 6.  [**Credits**](#credits)
-  - [**Contents**](#contents)
-  - [**Images**](#images)
-  - [**Help with code**](#help-with-code)
+  - [**Contents and images**](#contents)
   - [**Acknowledgements**](#acknowledgements)
 
+## UX
+
+
+### Project Purpose
 ## Purpose
 The purpose of the project is to build a django based full-stack site which is fully funtional and based around business logic with centrally controlled database.
 
@@ -59,9 +60,6 @@ The design of the page is simple and easy to move around, it is intuitive as wel
 
 The hero image on the home page has been taken from sublum template by colorlib and the product images has been taken from currys.co.uk website
     
-### Wireframes
-
-Wireframes were made using print screen.
 
 ## Features
 
@@ -246,7 +244,7 @@ To connect AWS:
 3.  Also in settings.py the following lines are added:
 
         AWS_STORAGE_BUCKET_NAME = 'tech4u-shop'
-        AWS_S3_REGION_NAME = 'eu-west-1'
+        AWS_S3_REGION_NAME = 'eu-north-1'
         AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
         AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
@@ -266,9 +264,6 @@ To connect AWS:
 5.  Create custom_storages.py at the top level:
 6.  Returned to terminal window and run python3 manage.py collectstatic
 7.  Returned to Heroku. In Settings clicked on Reveal Config Vars button, and added all the following config vars from env.py:
-
-![Heroku Config Var](/media/HerokuConfigVar.PNG)
-
 8. Git push Heroku master to finish and deploy to Heroku.
 9. Clicked to Deploy tab, then GitHub, searched for my repository and clicked to Connect button.
 Heroku will be updated automatically from Github repository.
@@ -288,3 +283,14 @@ Heroku will be updated automatically from Github repository.
 + AWS
    1. S3 Buckets
    2. IAM (Security)
+
+
+### Contents and images 
+
+All the product content and images has been taken from curry.co.uk website 
+Home page image has been taken from sublime template of colorlib
+
+### Acknowledgements
+My mentor Dbenga for helping with issues 
+Code institute video tutorials provided all the knowledge and info needed to completing the project
+Slack community 
